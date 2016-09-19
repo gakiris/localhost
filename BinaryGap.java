@@ -1,4 +1,5 @@
-int solution(int N){
+class BinaryGap {
+	public int BinaryGap(int N){
 	
 	int N = 1041;
 	String gak = Integer.toBinaryString(N);
@@ -27,3 +28,4 @@ int solution(int N){
       }
     return maxZeroCount;
   }
+}
