@@ -11,18 +11,20 @@ class BinaryGap {
           if (gak.charAt(i)=='0')
           {
               zeroCount++;
+    	  maxZeroCount = zeroCount;
           }
           else
           {
+		  zeroCount = 0;
               //System.out.println("");
-              if(maxZeroCount>zeroCount)
+              /*if(maxZeroCount>zeroCount)
               {
                   zeroCount = 0;
               }
               else{ 
                   maxZeroCount = zeroCount;
                   zeroCount = 0;
-              }
+              }*/
           }
             
       }
